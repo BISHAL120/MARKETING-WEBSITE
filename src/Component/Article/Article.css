@@ -1,0 +1,163 @@
+.main-article {
+    height: 100vh;
+}
+
+.article-heading h1 {
+    color: #253D32;
+    font-family: Rubik;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0.84px;
+}
+
+.article-heading p {
+    color: #78847D;
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.svg {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 40px;
+
+}
+
+.main-detail {
+    display: flex;
+    justify-content: center;
+    gap: 12rem;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.detail {
+    color: #253D32;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.detail:hover {
+    color: orange;
+    font-size: 50px;
+    transition: all ease 0.7s;
+    line-height: 50px;
+}
+
+.detail-svg:hover {
+    width: 50px;
+}
+
+.article h1 {
+    color: #253D32;
+    font-family: Rubik;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px;
+    margin-top: 70px;
+    letter-spacing: 0.84px;
+}
+
+.main-cart {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    height: 380px;
+}
+
+.cart img {
+    width: 300px;
+}
+
+.cart img:hover {
+    width: 450px;
+    transition: all ease 0.7s;
+}
+
+.cart h3 {
+    color: #253D32;
+    font-family: Rubik;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    /* 138.462% */
+}
+
+.cart button {
+    width: 206px;
+    height: 68px;
+    border-radius: 192px;
+    border: 1px solid #A3B938;
+    box-shadow: 0px 34px 50px 0px rgba(7, 63, 67, 0.07);
+    background: #FFF;
+    color: #98AA28;
+    font-family: Rubik;
+    font-size: 20px;
+}
+
+.cart button:hover {
+    background-color: #98AA28;
+    color: white;
+}
+
+.subscribe {
+    margin-top: 100px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.subscribe-contain {
+    width: 75%;
+    height: 380px;
+    background: linear-gradient(163deg, #395C4D 0%, #132D1F 100%);
+    text-align: start;
+    margin-bottom: 100px;
+    border-radius: 20px
+}
+
+.subscribe-contain div{
+    margin-left: 4rem;
+}
+
+.subscribe-contain h2 {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 55px;
+    letter-spacing: 0.32px;
+    width: 660px;
+}
+
+.subscribe-contain input {
+    width: 372px;
+    height: 78px;
+    border-radius: 192px;
+    background: linear-gradient(356deg, #FFF 0%, #E2E2E2 100%);
+    box-shadow: 0px 34px 50px 0px rgba(7, 63, 67, 0.07);
+    margin-right: 50px;
+    border: none;
+}
+
+.subscribe-contain ::placeholder {
+    color: #14183E;
+    font-family: Rubik;
+    font-size: 20px;
+    border: none;
+    margin-left: 20px;
+
+}
